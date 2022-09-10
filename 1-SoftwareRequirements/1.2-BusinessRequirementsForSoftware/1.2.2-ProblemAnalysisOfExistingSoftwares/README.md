@@ -18,7 +18,7 @@
       td></td>
     <tr>
       <td>Nextdoor: https://apps.apple.com/us/app/nextdoor-neighborhood-app/id640360962</td>
-      <td>    1</td>
+      <td>1</td>
       <td></td>
       <td></td>
       <td>Free</td>
