@@ -22,7 +22,7 @@
       <td></td>
       <td></td>
       <td>Free</td>
-      td></td>
+      <td></td>
     </tr>
     <tr>
       <td>Dall-e-2: https://openai.com/dall-e-2/</td>
