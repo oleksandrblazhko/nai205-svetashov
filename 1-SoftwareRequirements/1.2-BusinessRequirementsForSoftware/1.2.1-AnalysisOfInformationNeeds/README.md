@@ -3,12 +3,6 @@
 <table>
   <tbody>
     <tr>
-<<<<<<< HEAD
-      <td>
-<td
-
-  <tbody>
-=======
       <td>Потреба</td>
       <td>Доступність</td>
       <td>Зрозумілість</td>
@@ -42,5 +36,4 @@
       <td></td>
     </tr>
    </tbody
->>>>>>> 0700aee7059047a583ada07e83a55c97edd74032
 </table>
