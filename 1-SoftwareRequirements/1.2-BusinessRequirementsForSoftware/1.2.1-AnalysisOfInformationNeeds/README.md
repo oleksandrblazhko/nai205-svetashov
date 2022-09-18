@@ -3,9 +3,6 @@
 <table>
   <tbody>
     <tr>
-      <td>
-<td
-  <tbody>
       <td>Потреба</td>
       <td>Доступність</td>
       <td>Зрозумілість</td>
