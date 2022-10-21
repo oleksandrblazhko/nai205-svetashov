@@ -1,4 +1,4 @@
 Вимога NFR2.1 = Вимога FR2.1:
 
-![image](https://user-images.githubusercontent.com/79439962/197280728-6623c0dc-5bab-42ac-bffe-1f093fc57942.png)
+![image](https://user-images.githubusercontent.com/79439962/197280797-56b0d483-c50d-4bb2-8432-25bc5037eaa4.png)
 
