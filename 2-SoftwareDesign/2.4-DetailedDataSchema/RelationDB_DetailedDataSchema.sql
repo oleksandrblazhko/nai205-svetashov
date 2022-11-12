@@ -15,6 +15,7 @@ CREATE TABLE Order_Info( -- Замовлення
 CREATE TABLE Basket( -- Кошик
     id_basket NUMBER(8), -- id кошику
     amount_of_product NUMBER(4), -- Кількість товарів у кошику
+    date_of_creation DATE,
 	id_user NUMBER(8)
 );
 
@@ -79,7 +80,7 @@ ALTER TABLE Order_Info ADD CONSTRAINT general_price_range
 	
 ALTER TABLE Order_Info ADD CONSTRAINT fk_id_basket_order_info
 	FOREIGN KEY(id_basket)
-	REFERENCES Bakset(id_basket);
+	REFERENCES Basket(id_basket);
 	
 
 --Painter
@@ -124,4 +125,3 @@ ALTER TABLE User_Info ADD CONSTRAINT e_mail_template
 ALTER TABLE User_Info ADD CONSTRAINT user_phone_template
     CHECK ( regexp_like(phone_number, '^(\([0-9]{3}\))?[0-9]{3}-[0-9]{4}$'));
 	
-
