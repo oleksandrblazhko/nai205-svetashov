@@ -1,1 +1,14 @@
+@startuml
+title Classes Diagram
+
+Class Painter
+Class User
+Class Basket
+Class Product
+
+User <|-- Painter
+User"1" -up-> "1"Basket : form
+Product"*" o-- "*"Basket
+
+@enduml
 
