@@ -1,0 +1,52 @@
+@startuml
+title Relation Schema
+hide circle
+entity "Painter" as painter {
+  (PK)id_painter
+  --
+  style
+  amount_of_paintigs
+  experience
+  (FK)id_user
+}
+
+entity "User" as user {
+  (PK)id_user
+  --
+  name
+  surname
+  e_mail
+  phone_number
+}
+
+entity "Basket" as bask {
+  (PK)id_basket
+  --
+  amount_of_product
+  date_of_creation
+  (FK)id_user
+}
+
+entity "Product" as prod {
+  (PK)id_product
+  --
+  name
+  price
+  availability
+  description
+  amount
+}
+
+entity "Basket_Product" as bask_prod {
+  (FK)id_basket
+  (FK)id_product
+}
+
+
+
+painter -- user
+user -- bask
+bask --{ bask_prod
+prod --{ bask_prod
+
+@enduml
