@@ -1,0 +1,14 @@
+@startuml
+title Conditional - Activity Diagram 
+
+start
+:The user adds a product to the basket;
+:The program analyzes the choise of a user;
+if (The product is available?) then (Yes)
+:The programm adds a product to the basket;
+else (No)
+:Unfortunately,the product is not available!;
+endif
+stop
+
+@enduml
