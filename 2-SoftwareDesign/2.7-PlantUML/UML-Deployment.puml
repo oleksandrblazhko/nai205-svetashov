@@ -1,0 +1,15 @@
+@startuml
+title Deployment for information System
+left to right direction
+node "<<Desktop computer>>" as dk {
+  node "<<OS Windows>>" {
+    node "<<Web browser>>" {
+      component [.js (WebStorm)]
+    }
+  }
+}
+interface Keyboard
+interface Mouse
+Keyboard -- dk
+Mouse -- dk
+@enduml
