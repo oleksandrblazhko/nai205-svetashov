@@ -8,8 +8,8 @@ drop table Basket_Product CASCADE CONSTRAINTS;
 CREATE TABLE Order_Info( -- Замовлення
     id_order NUMBER(8), -- id замовлення
     general_price NUMBER(6,2), -- ціна замовлення
-    SNP VARCHAR(100), -- ПІБ замовника
-	adress_of_delivery VARCHAR(150), -- адрес доставки
+    SNP VARCHAR(30), -- ПІБ замовника
+    adress_of_delivery VARCHAR(50), -- адрес доставки
     phone_number VARCHAR(15), -- Номер телефону замовника
     e_mail VARCHAR (40), -- Електронна адреса замовника
 	id_basket NUMBER(8) -- id кошику
