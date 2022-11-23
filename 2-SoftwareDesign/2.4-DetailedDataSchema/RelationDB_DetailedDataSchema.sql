@@ -12,7 +12,7 @@ CREATE TABLE Order_Info( -- Замовлення
     adress_of_delivery VARCHAR(50), -- адрес доставки
     phone_number VARCHAR(15), -- Номер телефону замовника
     e_mail VARCHAR (40), -- Електронна адреса замовника
-	id_basket NUMBER(8) -- id кошику
+    id_basket NUMBER(8) -- id кошику
 );
 
 CREATE TABLE Basket( -- Кошик
