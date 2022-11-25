@@ -1,2 +1,3 @@
 ### Схема моделі даних
-![](https://github.com/oleksandrblazhko/nai205-svetashov/blob/laboratory-work-8/2-SoftwareDesign/2.3-DataModel/RelDB.jpg)
+![](https://user-images.githubusercontent.com/79439962/203809936-4336f222-472a-4af4-8416-3e72d5d47bfa.png)
+
